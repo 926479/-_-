@@ -1,5 +1,3 @@
-# -_-
-108_修課
 
 
 """The template of the main script of the machine learning process
@@ -27,7 +25,7 @@ def ml_loop():
 	ball_position_history=[]
     # 2. Inform the game process that ml process is ready before start the loop.
 	comm.ml_ready()
-#	platform_ok=0
+	#platform_ok=0
 	# 3. Start an endless loop.
 	while True:
 		# 3.1. Receive the scene information sent from the game process.
